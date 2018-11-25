@@ -12,5 +12,3 @@ logs
 target
 *.iml
 .idea
-/pattern-proxy/
-/proxy/
