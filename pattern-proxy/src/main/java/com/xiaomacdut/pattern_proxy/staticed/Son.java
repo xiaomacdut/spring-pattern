@@ -1,4 +1,4 @@
-package com.xiaomacdut.proxy.staticed;
+package com.xiaomacdut.pattern_proxy.staticed;
 
 public class Son implements Person{
 

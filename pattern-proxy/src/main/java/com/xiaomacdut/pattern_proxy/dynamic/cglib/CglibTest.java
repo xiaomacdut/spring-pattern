@@ -1,4 +1,4 @@
-package com.xiaomacdut.proxy.dynamic.cglib;
+package com.xiaomacdut.pattern_proxy.dynamic.cglib;
 
 public class CglibTest {
 

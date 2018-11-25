@@ -1,6 +1,6 @@
-package com.xiaomacdut.proxy.dynamic.jdk;
+package com.xiaomacdut.pattern_proxy.dynamic.jdk;
 
-import com.xiaomacdut.proxy.staticed.Person;
+import com.xiaomacdut.pattern_proxy.staticed.Person;
 
 /**
  * Created by Tom on 2018/3/10.
