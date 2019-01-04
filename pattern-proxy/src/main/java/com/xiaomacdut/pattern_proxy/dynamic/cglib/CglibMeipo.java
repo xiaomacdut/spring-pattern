@@ -28,7 +28,9 @@ public class CglibMeipo implements MethodInterceptor{
         enhancer.setCallback(this);
         return enhancer.create();
         
+        
     }
+    
     
     public Object intercept(Object o, Method method, Object [] objects, MethodProxy methodProxy) throws Throwable{
         // 业务的增强
