@@ -5,7 +5,7 @@ package com.xiaomacdut.pattern_proxy.dynamic.jdk;
  * @author xiaomacdut
  * @date 2019年4月7日 下午6:52:03
  */
-public interface Star{
+public interface StarInterface{
     
     void confer();// 面谈
     

@@ -5,7 +5,7 @@ package com.xiaomacdut.pattern_proxy.dynamic.jdk;
  * @author xiaomacdut
  * @date 2019年4月7日 下午6:52:43
  */
-public class RealStar implements Star{
+public class RealStar implements StarInterface{
     
     @Override
     public void confer(){

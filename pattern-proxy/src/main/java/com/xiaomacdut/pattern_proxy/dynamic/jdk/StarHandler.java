@@ -9,10 +9,10 @@ import java.lang.reflect.Method;
  */
 public class StarHandler implements InvocationHandler{
     
-    private Star realStar;// 真实角色
+    private StarInterface realStar;// 真实角色
     
     // 通过构造器来初始化真实角色
-    public StarHandler(Star realStar){
+    public StarHandler(StarInterface realStar){
         super();
         this.realStar = realStar;
     }
