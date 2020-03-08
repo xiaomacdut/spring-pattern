@@ -22,6 +22,7 @@ public class TestJDKProxy{
         Object target = new PersonDaoImpl();
         Transaction transaction = new Transaction();
         MyInvocationHandler handler = new MyInvocationHandler(target, transaction);
+        
         /**
          * 参数一：设置代码使用的类加载器，一般采用跟目标类相同的类加载器
          * 参数二：设置代理类实现的接口，跟目标类使用相同的接口
